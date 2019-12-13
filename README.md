@@ -1,4 +1,4 @@
-# The Gang of Four - Design Patterns using Swift in iOS
+# Design Patterns by The Gang of Four - using Swift for iOS
 
 Christopher Alexander says, "Each pattern describes a problem which occurs over
 and over again in our environment, and then describes the core of the solution
