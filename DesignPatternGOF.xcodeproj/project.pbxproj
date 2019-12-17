@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5564E94023A8FA060016C533 /* FMPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E93F23A8FA060016C533 /* FMPizza.swift */; };
+		5564E94323A911560016C533 /* FMNYStyleCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E94223A911560016C533 /* FMNYStyleCheesePizza.swift */; };
+		5564E94523A9129B0016C533 /* FMNYStyleClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E94423A9129B0016C533 /* FMNYStyleClamPizza.swift */; };
+		5564E94723A9130B0016C533 /* FMNYStylePepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E94623A9130B0016C533 /* FMNYStylePepperoniPizza.swift */; };
+		5564E94923A9137B0016C533 /* FMNYStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E94823A9137B0016C533 /* FMNYStyleVeggiePizza.swift */; };
+		5564E94B23A914720016C533 /* FMPizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E94A23A914720016C533 /* FMPizzaFactory.swift */; };
+		5564E95123A926DE0016C533 /* DPTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E95023A926DE0016C533 /* DPTester.swift */; };
+		5564E95323A927140016C533 /* DPFMTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564E95223A927140016C533 /* DPFMTester.swift */; };
 		55B0CF3723A8A60200D4EADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0CF3623A8A60200D4EADB /* AppDelegate.swift */; };
 		55B0CF3923A8A60200D4EADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0CF3823A8A60200D4EADB /* SceneDelegate.swift */; };
 		55B0CF3B23A8A60300D4EADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0CF3A23A8A60300D4EADB /* ContentView.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5564E93F23A8FA060016C533 /* FMPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMPizza.swift; sourceTree = "<group>"; };
+		5564E94223A911560016C533 /* FMNYStyleCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMNYStyleCheesePizza.swift; sourceTree = "<group>"; };
+		5564E94423A9129B0016C533 /* FMNYStyleClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMNYStyleClamPizza.swift; sourceTree = "<group>"; };
+		5564E94623A9130B0016C533 /* FMNYStylePepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMNYStylePepperoniPizza.swift; sourceTree = "<group>"; };
+		5564E94823A9137B0016C533 /* FMNYStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMNYStyleVeggiePizza.swift; sourceTree = "<group>"; };
+		5564E94A23A914720016C533 /* FMPizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMPizzaFactory.swift; sourceTree = "<group>"; };
+		5564E95023A926DE0016C533 /* DPTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTester.swift; sourceTree = "<group>"; };
+		5564E95223A927140016C533 /* DPFMTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPFMTester.swift; sourceTree = "<group>"; };
 		55B0CF3323A8A60200D4EADB /* DesignPatternGOF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternGOF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B0CF3623A8A60200D4EADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B0CF3823A8A60200D4EADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,220 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5564E92523A8E8EA0016C533 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				5564E92623A8E9000016C533 /* AbstractFactory */,
+				5564E92823A8E91A0016C533 /* Adapter */,
+				5564E92923A8E92F0016C533 /* Bridge */,
+				5564E92A23A8E9370016C533 /* Builder */,
+				5564E92B23A8E9450016C533 /* ChainOfResponsibility */,
+				5564E92C23A8E9550016C533 /* Command */,
+				5564E92D23A8E95D0016C533 /* Composite */,
+				5564E92E23A8E9640016C533 /* Decorator */,
+				5564E92F23A8E96C0016C533 /* Facade */,
+				5564E93023A8E9780016C533 /* FactoryMethod */,
+				5564E93123A8E9850016C533 /* Flyweight */,
+				5564E93223A8E98D0016C533 /* Interpreter */,
+				5564E93323A8E9950016C533 /* Iterator */,
+				5564E93423A8E99F0016C533 /* Mediator */,
+				5564E93523A8E9A80016C533 /* Memento */,
+				5564E93623A8E9C10016C533 /* Observer */,
+				5564E93723A8E9C90016C533 /* Prototype */,
+				5564E93923A8E9D70016C533 /* Singleton */,
+				5564E93823A8E9D00016C533 /* Proxy */,
+				5564E93A23A8E9DE0016C533 /* State */,
+				5564E93B23A8E9E50016C533 /* Strategy */,
+				5564E93C23A8E9F30016C533 /* TemplateMethod */,
+				5564E93D23A8E9FF0016C533 /* Visitor */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		5564E92623A8E9000016C533 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		5564E92823A8E91A0016C533 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5564E92923A8E92F0016C533 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		5564E92A23A8E9370016C533 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5564E92B23A8E9450016C533 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		5564E92C23A8E9550016C533 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		5564E92D23A8E95D0016C533 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		5564E92E23A8E9640016C533 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		5564E92F23A8E96C0016C533 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		5564E93023A8E9780016C533 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5564E93E23A8F9CE0016C533 /* Models */,
+				5564E94A23A914720016C533 /* FMPizzaFactory.swift */,
+				5564E95223A927140016C533 /* DPFMTester.swift */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		5564E93123A8E9850016C533 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		5564E93223A8E98D0016C533 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		5564E93323A8E9950016C533 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		5564E93423A8E99F0016C533 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		5564E93523A8E9A80016C533 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		5564E93623A8E9C10016C533 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		5564E93723A8E9C90016C533 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		5564E93823A8E9D00016C533 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		5564E93923A8E9D70016C533 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		5564E93A23A8E9DE0016C533 /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		5564E93B23A8E9E50016C533 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		5564E93C23A8E9F30016C533 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		5564E93D23A8E9FF0016C533 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		5564E93E23A8F9CE0016C533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5564E94123A911360016C533 /* NYModel */,
+				5564E93F23A8FA060016C533 /* FMPizza.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5564E94123A911360016C533 /* NYModel */ = {
+			isa = PBXGroup;
+			children = (
+				5564E94223A911560016C533 /* FMNYStyleCheesePizza.swift */,
+				5564E94423A9129B0016C533 /* FMNYStyleClamPizza.swift */,
+				5564E94623A9130B0016C533 /* FMNYStylePepperoniPizza.swift */,
+				5564E94823A9137B0016C533 /* FMNYStyleVeggiePizza.swift */,
+			);
+			path = NYModel;
+			sourceTree = "<group>";
+		};
 		55B0CF2A23A8A60200D4EADB = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +286,11 @@
 		55B0CF3523A8A60200D4EADB /* DesignPatternGOF */ = {
 			isa = PBXGroup;
 			children = (
+				5564E92523A8E8EA0016C533 /* Patterns */,
 				55B0CF3623A8A60200D4EADB /* AppDelegate.swift */,
 				55B0CF3823A8A60200D4EADB /* SceneDelegate.swift */,
 				55B0CF3A23A8A60300D4EADB /* ContentView.swift */,
+				5564E95023A926DE0016C533 /* DPTester.swift */,
 				55B0CF3C23A8A60500D4EADB /* Assets.xcassets */,
 				55B0CF4123A8A60500D4EADB /* LaunchScreen.storyboard */,
 				55B0CF4423A8A60500D4EADB /* Info.plist */,
@@ -146,9 +378,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5564E94B23A914720016C533 /* FMPizzaFactory.swift in Sources */,
 				55B0CF3723A8A60200D4EADB /* AppDelegate.swift in Sources */,
+				5564E94323A911560016C533 /* FMNYStyleCheesePizza.swift in Sources */,
+				5564E94723A9130B0016C533 /* FMNYStylePepperoniPizza.swift in Sources */,
+				5564E94023A8FA060016C533 /* FMPizza.swift in Sources */,
+				5564E95323A927140016C533 /* DPFMTester.swift in Sources */,
 				55B0CF3923A8A60200D4EADB /* SceneDelegate.swift in Sources */,
+				5564E94923A9137B0016C533 /* FMNYStyleVeggiePizza.swift in Sources */,
 				55B0CF3B23A8A60300D4EADB /* ContentView.swift in Sources */,
+				5564E95123A926DE0016C533 /* DPTester.swift in Sources */,
+				5564E94523A9129B0016C533 /* FMNYStyleClamPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
