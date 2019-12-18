@@ -14,7 +14,6 @@ In this Branch, I will try to illustrate all 23 original design patters provided
 - **Ralph Johnson**
 - **John Vlissides**
 
-
 Few references for better understanding.
 
 ### A pattern has four essential elements: 
