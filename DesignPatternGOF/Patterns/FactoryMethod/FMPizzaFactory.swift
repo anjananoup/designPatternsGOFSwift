@@ -11,13 +11,14 @@ enum FMPizzaType {
     case Veggie
     case Clam
     case Pepperoni
+    case Unknown
 }
 
 class FMPizzaFactory {
     private init() {}
     
     static func createPizza(_ item: FMPizzaType) -> FMPizza? {
-        let pizza: FMPizza?
+        var pizza: FMPizza? = nil
         switch item {
         case .Cheese:
             pizza = FMNYStyleCheesePizza()
@@ -27,8 +28,11 @@ class FMPizzaFactory {
             pizza = FMNYStyleClamPizza()
         case .Pepperoni:
             pizza = FMNYStylePepperoniPizza()
+        case .Unknown:
+            print("Pizza type Unknown")
+            fallthrough
         @unknown default:
-            print("For future use")
+            print("Pizza type unknown. Can't make...")
         }
         
         pizza?.prepare()
