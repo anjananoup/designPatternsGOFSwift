@@ -38,6 +38,15 @@
 		55E4F44823ABC91A00B7BE6A /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44723ABC91A00B7BE6A /* Readme.md */; };
 		55E4F44A23ABC9B600B7BE6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44923ABC9B600B7BE6A /* README.md */; };
 		55E4F44D23ABCA5700B7BE6A /* structure-object-adapter.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44C23ABCA5700B7BE6A /* structure-object-adapter.png */; };
+		55E4F45423ABD29B00B7BE6A /* ATurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45323ABD29B00B7BE6A /* ATurkey.swift */; };
+		55E4F45623ABD2DF00B7BE6A /* AWildTurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45523ABD2DF00B7BE6A /* AWildTurkey.swift */; };
+		55E4F45823ABD38800B7BE6A /* ADuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45723ABD38800B7BE6A /* ADuck.swift */; };
+		55E4F45A23ABD3CA00B7BE6A /* AMallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45923ABD3CA00B7BE6A /* AMallardDuck.swift */; };
+		55E4F45C23ABD42E00B7BE6A /* ATurkeyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45B23ABD42E00B7BE6A /* ATurkeyAdapter.swift */; };
+		55E4F46023ABD4E600B7BE6A /* DPATester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45F23ABD4E600B7BE6A /* DPATester.swift */; };
+		55E4F46323ABD72000B7BE6A /* ADrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F46223ABD72000B7BE6A /* ADrone.swift */; };
+		55E4F46523ABD75A00B7BE6A /* ASuperDrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F46423ABD75A00B7BE6A /* ASuperDrone.swift */; };
+		55E4F46723ABD7C800B7BE6A /* ADroneAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F46623ABD7C800B7BE6A /* ADroneAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +83,15 @@
 		55E4F44723ABC91A00B7BE6A /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		55E4F44923ABC9B600B7BE6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55E4F44C23ABCA5700B7BE6A /* structure-object-adapter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "structure-object-adapter.png"; sourceTree = "<group>"; };
+		55E4F45323ABD29B00B7BE6A /* ATurkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATurkey.swift; sourceTree = "<group>"; };
+		55E4F45523ABD2DF00B7BE6A /* AWildTurkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWildTurkey.swift; sourceTree = "<group>"; };
+		55E4F45723ABD38800B7BE6A /* ADuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADuck.swift; sourceTree = "<group>"; };
+		55E4F45923ABD3CA00B7BE6A /* AMallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMallardDuck.swift; sourceTree = "<group>"; };
+		55E4F45B23ABD42E00B7BE6A /* ATurkeyAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATurkeyAdapter.swift; sourceTree = "<group>"; };
+		55E4F45F23ABD4E600B7BE6A /* DPATester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPATester.swift; sourceTree = "<group>"; };
+		55E4F46223ABD72000B7BE6A /* ADrone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADrone.swift; sourceTree = "<group>"; };
+		55E4F46423ABD75A00B7BE6A /* ASuperDrone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASuperDrone.swift; sourceTree = "<group>"; };
+		55E4F46623ABD7C800B7BE6A /* ADroneAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADroneAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +191,10 @@
 		5564E92823A8E91A0016C533 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				55E4F44E23ABD1E100B7BE6A /* Models */,
+				55E4F45B23ABD42E00B7BE6A /* ATurkeyAdapter.swift */,
+				55E4F46623ABD7C800B7BE6A /* ADroneAdapter.swift */,
+				55E4F45F23ABD4E600B7BE6A /* DPATester.swift */,
 				55E4F44723ABC91A00B7BE6A /* Readme.md */,
 			);
 			path = Adapter;
@@ -398,6 +420,43 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		55E4F44E23ABD1E100B7BE6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55E4F46123ABD6FA00B7BE6A /* Drone */,
+				55E4F45023ABD22F00B7BE6A /* Turkey */,
+				55E4F44F23ABD21D00B7BE6A /* Duck */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55E4F44F23ABD21D00B7BE6A /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				55E4F45723ABD38800B7BE6A /* ADuck.swift */,
+				55E4F45923ABD3CA00B7BE6A /* AMallardDuck.swift */,
+			);
+			path = Duck;
+			sourceTree = "<group>";
+		};
+		55E4F45023ABD22F00B7BE6A /* Turkey */ = {
+			isa = PBXGroup;
+			children = (
+				55E4F45323ABD29B00B7BE6A /* ATurkey.swift */,
+				55E4F45523ABD2DF00B7BE6A /* AWildTurkey.swift */,
+			);
+			path = Turkey;
+			sourceTree = "<group>";
+		};
+		55E4F46123ABD6FA00B7BE6A /* Drone */ = {
+			isa = PBXGroup;
+			children = (
+				55E4F46223ABD72000B7BE6A /* ADrone.swift */,
+				55E4F46423ABD75A00B7BE6A /* ASuperDrone.swift */,
+			);
+			path = Drone;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,8 +531,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E4F46723ABD7C800B7BE6A /* ADroneAdapter.swift in Sources */,
+				55E4F46323ABD72000B7BE6A /* ADrone.swift in Sources */,
 				5564E94B23A914720016C533 /* FMPizzaFactory.swift in Sources */,
+				55E4F45C23ABD42E00B7BE6A /* ATurkeyAdapter.swift in Sources */,
+				55E4F46023ABD4E600B7BE6A /* DPATester.swift in Sources */,
 				55B0CF3723A8A60200D4EADB /* AppDelegate.swift in Sources */,
+				55E4F45823ABD38800B7BE6A /* ADuck.swift in Sources */,
+				55E4F45623ABD2DF00B7BE6A /* AWildTurkey.swift in Sources */,
 				5513802C23AA68BA008F9210 /* AFPizza.swift in Sources */,
 				5513803123AA692C008F9210 /* AFNYStylePepperoniPizza.swift in Sources */,
 				5564E94323A911560016C533 /* FMNYStyleCheesePizza.swift in Sources */,
@@ -489,12 +554,15 @@
 				5513803923AA69BD008F9210 /* AFBDStylePepperoniPizza.swift in Sources */,
 				5513803323AA6951008F9210 /* AFNYStyleVeggiePizza.swift in Sources */,
 				55E4F44623AA755B00B7BE6A /* DPAFTester.swift in Sources */,
+				55E4F45423ABD29B00B7BE6A /* ATurkey.swift in Sources */,
 				5513802A23AA6899008F9210 /* AFNYStyleCheesePizza.swift in Sources */,
 				55E4F44423AA742400B7BE6A /* AFPizzaProducer.swift in Sources */,
 				5564E94923A9137B0016C533 /* FMNYStyleVeggiePizza.swift in Sources */,
 				55B0CF3B23A8A60300D4EADB /* ContentView.swift in Sources */,
 				5513802E23AA68FE008F9210 /* AFNYStyleClamPizza.swift in Sources */,
 				55E4F44223AA72FE00B7BE6A /* AFBDPizzaFactory.swift in Sources */,
+				55E4F46523ABD75A00B7BE6A /* ASuperDrone.swift in Sources */,
+				55E4F45A23ABD3CA00B7BE6A /* AMallardDuck.swift in Sources */,
 				5564E95123A926DE0016C533 /* DPTester.swift in Sources */,
 				5564E94523A9129B0016C533 /* FMNYStyleClamPizza.swift in Sources */,
 			);

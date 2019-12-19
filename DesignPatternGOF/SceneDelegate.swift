@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView(doAction: { [weak self] in
             print("Doing......")
-            self?.tester = DPAFTester()
+            self?.tester = DPATester()
             self?.tester?.doSomething()
         })
 
