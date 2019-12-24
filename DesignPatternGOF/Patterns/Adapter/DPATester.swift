@@ -7,7 +7,7 @@
 //
 
 class DPATester: DPTester {
-    func doSomething() {
+    func startTesting() {
         let mallaredDuck = AMallardDuck()
         testDuck(mallaredDuck)
 

@@ -7,7 +7,7 @@
 //
 
 class DPFMTester: DPTester {
-    func doSomething() {
+    func startTesting() {
         var pizza = FMPizzaFactory.createPizza(.Cheese)
         print("Anjan ordered a \(String(describing: pizza?.name))")
         

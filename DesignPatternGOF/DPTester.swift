@@ -7,5 +7,5 @@
 //
 
 protocol DPTester {
-    func doSomething()
+    func startTesting()
 }

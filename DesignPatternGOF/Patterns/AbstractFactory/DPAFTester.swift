@@ -7,7 +7,7 @@
 //
 
 class DPAFTester: DPTester {
-    func doSomething() {
+    func startTesting() {
         var pizza = AFPizzaProducer.getPizzaFactory(.BD)?.orderPizza(.Cheese)
         print("Anjan Ordered a \(String(describing: pizza?.name))")
         pizza = AFPizzaProducer.getPizzaFactory(.NY)?.orderPizza(.Cheese)
