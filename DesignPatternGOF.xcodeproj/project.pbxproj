@@ -19,6 +19,20 @@
 		5513803B23AA69CC008F9210 /* AFBDStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513803A23AA69CC008F9210 /* AFBDStyleVeggiePizza.swift */; };
 		5513803E23AA6B57008F9210 /* AFPizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513803D23AA6B57008F9210 /* AFPizzaFactory.swift */; };
 		5513804023AA6C6C008F9210 /* AFNYPizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513803F23AA6C6C008F9210 /* AFNYPizzaFactory.swift */; };
+		555A2CC123D6F27F008B71C5 /* builder-problem1.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CBD23D6F27F008B71C5 /* builder-problem1.png */; };
+		555A2CC223D6F27F008B71C5 /* builder-solution.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CBE23D6F27F008B71C5 /* builder-solution.png */; };
+		555A2CC323D6F27F008B71C5 /* builder-problem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CBF23D6F27F008B71C5 /* builder-problem2.png */; };
+		555A2CC423D6F27F008B71C5 /* builder-director.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CC023D6F27F008B71C5 /* builder-director.png */; };
+		555A2CC623D6F2F3008B71C5 /* builder-structure.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CC523D6F2F3008B71C5 /* builder-structure.png */; };
+		555A2CC823D6F479008B71C5 /* builder-comic.png in Resources */ = {isa = PBXBuildFile; fileRef = 555A2CC723D6F479008B71C5 /* builder-comic.png */; };
+		555A2CCB23D6F897008B71C5 /* BDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CCA23D6F897008B71C5 /* BDomainModel.swift */; };
+		555A2CCE23D6F917008B71C5 /* BBaseQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CCD23D6F917008B71C5 /* BBaseQueryBuilder.swift */; };
+		555A2CD023D6FBF3008B71C5 /* BRealmQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CCF23D6FBF3008B71C5 /* BRealmQueryBuilder.swift */; };
+		555A2CD223D6FC92008B71C5 /* BCoreDataQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CD123D6FC92008B71C5 /* BCoreDataQueryBuilder.swift */; };
+		555A2CD523D6FD0E008B71C5 /* BRealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CD423D6FD0E008B71C5 /* BRealmProvider.swift */; };
+		555A2CD923D6FD59008B71C5 /* BCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CD823D6FD59008B71C5 /* BCoreDataProvider.swift */; };
+		555A2CDB23D6FDE5008B71C5 /* BUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CDA23D6FDE5008B71C5 /* BUserModel.swift */; };
+		555A2CDD23D6FE3F008B71C5 /* DBBTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A2CDC23D6FE3F008B71C5 /* DBBTester.swift */; };
 		5562844323B119C40092AECE /* BDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562844223B119C40092AECE /* BDevice.swift */; };
 		5562844523B11DCD0092AECE /* BTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562844423B11DCD0092AECE /* BTV.swift */; };
 		5562844723B11E4F0092AECE /* BRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562844623B11E4F0092AECE /* BRadio.swift */; };
@@ -43,7 +57,6 @@
 		55E4F44423AA742400B7BE6A /* AFPizzaProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F44323AA742400B7BE6A /* AFPizzaProducer.swift */; };
 		55E4F44623AA755B00B7BE6A /* DPAFTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F44523AA755B00B7BE6A /* DPAFTester.swift */; };
 		55E4F44823ABC91A00B7BE6A /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44723ABC91A00B7BE6A /* Readme.md */; };
-		55E4F44A23ABC9B600B7BE6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44923ABC9B600B7BE6A /* README.md */; };
 		55E4F44D23ABCA5700B7BE6A /* structure-object-adapter.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E4F44C23ABCA5700B7BE6A /* structure-object-adapter.png */; };
 		55E4F45423ABD29B00B7BE6A /* ATurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45323ABD29B00B7BE6A /* ATurkey.swift */; };
 		55E4F45623ABD2DF00B7BE6A /* AWildTurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4F45523ABD2DF00B7BE6A /* AWildTurkey.swift */; };
@@ -69,6 +82,21 @@
 		5513803A23AA69CC008F9210 /* AFBDStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFBDStyleVeggiePizza.swift; sourceTree = "<group>"; };
 		5513803D23AA6B57008F9210 /* AFPizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFPizzaFactory.swift; sourceTree = "<group>"; };
 		5513803F23AA6C6C008F9210 /* AFNYPizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNYPizzaFactory.swift; sourceTree = "<group>"; };
+		555A2CBB23D6D05B008B71C5 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		555A2CBD23D6F27F008B71C5 /* builder-problem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-problem1.png"; sourceTree = "<group>"; };
+		555A2CBE23D6F27F008B71C5 /* builder-solution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-solution.png"; sourceTree = "<group>"; };
+		555A2CBF23D6F27F008B71C5 /* builder-problem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-problem2.png"; sourceTree = "<group>"; };
+		555A2CC023D6F27F008B71C5 /* builder-director.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-director.png"; sourceTree = "<group>"; };
+		555A2CC523D6F2F3008B71C5 /* builder-structure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-structure.png"; sourceTree = "<group>"; };
+		555A2CC723D6F479008B71C5 /* builder-comic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "builder-comic.png"; sourceTree = "<group>"; };
+		555A2CCA23D6F897008B71C5 /* BDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDomainModel.swift; sourceTree = "<group>"; };
+		555A2CCD23D6F917008B71C5 /* BBaseQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBaseQueryBuilder.swift; sourceTree = "<group>"; };
+		555A2CCF23D6FBF3008B71C5 /* BRealmQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRealmQueryBuilder.swift; sourceTree = "<group>"; };
+		555A2CD123D6FC92008B71C5 /* BCoreDataQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCoreDataQueryBuilder.swift; sourceTree = "<group>"; };
+		555A2CD423D6FD0E008B71C5 /* BRealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRealmProvider.swift; sourceTree = "<group>"; };
+		555A2CD823D6FD59008B71C5 /* BCoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCoreDataProvider.swift; sourceTree = "<group>"; };
+		555A2CDA23D6FDE5008B71C5 /* BUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUserModel.swift; sourceTree = "<group>"; };
+		555A2CDC23D6FE3F008B71C5 /* DBBTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBBTester.swift; sourceTree = "<group>"; };
 		5562844223B119C40092AECE /* BDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDevice.swift; sourceTree = "<group>"; };
 		5562844423B11DCD0092AECE /* BTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTV.swift; sourceTree = "<group>"; };
 		5562844623B11E4F0092AECE /* BRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRadio.swift; sourceTree = "<group>"; };
@@ -161,6 +189,34 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
+		555A2CC923D6F881008B71C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				555A2CCA23D6F897008B71C5 /* BDomainModel.swift */,
+				555A2CDA23D6FDE5008B71C5 /* BUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		555A2CCC23D6F901008B71C5 /* Buildes */ = {
+			isa = PBXGroup;
+			children = (
+				555A2CCD23D6F917008B71C5 /* BBaseQueryBuilder.swift */,
+				555A2CCF23D6FBF3008B71C5 /* BRealmQueryBuilder.swift */,
+				555A2CD123D6FC92008B71C5 /* BCoreDataQueryBuilder.swift */,
+			);
+			path = Buildes;
+			sourceTree = "<group>";
+		};
+		555A2CD323D6FCED008B71C5 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				555A2CD423D6FD0E008B71C5 /* BRealmProvider.swift */,
+				555A2CD823D6FD59008B71C5 /* BCoreDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		5562844023B118F70092AECE /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +303,11 @@
 		5564E92A23A8E9370016C533 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				555A2CCC23D6F901008B71C5 /* Buildes */,
+				555A2CC923D6F881008B71C5 /* Models */,
+				555A2CD323D6FCED008B71C5 /* Provider */,
+				555A2CDC23D6FE3F008B71C5 /* DBBTester.swift */,
+				555A2CBB23D6D05B008B71C5 /* Readme.md */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -452,6 +513,12 @@
 		55E4F44B23ABCA3F00B7BE6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				555A2CC723D6F479008B71C5 /* builder-comic.png */,
+				555A2CC523D6F2F3008B71C5 /* builder-structure.png */,
+				555A2CC023D6F27F008B71C5 /* builder-director.png */,
+				555A2CBD23D6F27F008B71C5 /* builder-problem1.png */,
+				555A2CBF23D6F27F008B71C5 /* builder-problem2.png */,
+				555A2CBE23D6F27F008B71C5 /* builder-solution.png */,
 				55E4F44C23ABCA5700B7BE6A /* structure-object-adapter.png */,
 			);
 			path = Resources;
@@ -552,10 +619,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A2CC823D6F479008B71C5 /* builder-comic.png in Resources */,
+				555A2CC623D6F2F3008B71C5 /* builder-structure.png in Resources */,
 				55E4F44D23ABCA5700B7BE6A /* structure-object-adapter.png in Resources */,
 				55B0CF4323A8A60500D4EADB /* LaunchScreen.storyboard in Resources */,
+				555A2CC223D6F27F008B71C5 /* builder-solution.png in Resources */,
+				555A2CC323D6F27F008B71C5 /* builder-problem2.png in Resources */,
+				555A2CC423D6F27F008B71C5 /* builder-director.png in Resources */,
 				55B0CF4023A8A60500D4EADB /* Preview Assets.xcassets in Resources */,
-				55E4F44A23ABC9B600B7BE6A /* README.md in Resources */,
+				555A2CC123D6F27F008B71C5 /* builder-problem1.png in Resources */,
 				55E4F44823ABC91A00B7BE6A /* Readme.md in Resources */,
 				55B0CF3D23A8A60500D4EADB /* Assets.xcassets in Resources */,
 			);
@@ -570,10 +642,13 @@
 			files = (
 				55E4F46723ABD7C800B7BE6A /* ADroneAdapter.swift in Sources */,
 				55E4F46323ABD72000B7BE6A /* ADrone.swift in Sources */,
+				555A2CCB23D6F897008B71C5 /* BDomainModel.swift in Sources */,
 				5564E94B23A914720016C533 /* FMPizzaFactory.swift in Sources */,
 				5562844723B11E4F0092AECE /* BRadio.swift in Sources */,
+				555A2CD523D6FD0E008B71C5 /* BRealmProvider.swift in Sources */,
 				55E4F45C23ABD42E00B7BE6A /* ATurkeyAdapter.swift in Sources */,
 				55E4F46023ABD4E600B7BE6A /* DPATester.swift in Sources */,
+				555A2CCE23D6F917008B71C5 /* BBaseQueryBuilder.swift in Sources */,
 				5562844923B11E9E0092AECE /* BRemoteControl.swift in Sources */,
 				55B0CF3723A8A60200D4EADB /* AppDelegate.swift in Sources */,
 				55E4F45823ABD38800B7BE6A /* ADuck.swift in Sources */,
@@ -581,6 +656,7 @@
 				5513802C23AA68BA008F9210 /* AFPizza.swift in Sources */,
 				5513803123AA692C008F9210 /* AFNYStylePepperoniPizza.swift in Sources */,
 				5564E94323A911560016C533 /* FMNYStyleCheesePizza.swift in Sources */,
+				555A2CD023D6FBF3008B71C5 /* BRealmQueryBuilder.swift in Sources */,
 				5564E94723A9130B0016C533 /* FMNYStylePepperoniPizza.swift in Sources */,
 				5513803E23AA6B57008F9210 /* AFPizzaFactory.swift in Sources */,
 				5513803723AA69AE008F9210 /* AFBDStyleClamPizza.swift in Sources */,
@@ -589,11 +665,13 @@
 				5513803B23AA69CC008F9210 /* AFBDStyleVeggiePizza.swift in Sources */,
 				5562844523B11DCD0092AECE /* BTV.swift in Sources */,
 				5513804023AA6C6C008F9210 /* AFNYPizzaFactory.swift in Sources */,
+				555A2CD923D6FD59008B71C5 /* BCoreDataProvider.swift in Sources */,
 				5564E95323A927140016C533 /* DPFMTester.swift in Sources */,
 				5562844B23B11FA20092AECE /* BAdvancedRemoteControl.swift in Sources */,
 				55B0CF3923A8A60200D4EADB /* SceneDelegate.swift in Sources */,
 				5513803523AA69A0008F9210 /* AFBDStyleCheesePizza.swift in Sources */,
 				5513803923AA69BD008F9210 /* AFBDStylePepperoniPizza.swift in Sources */,
+				555A2CDD23D6FE3F008B71C5 /* DBBTester.swift in Sources */,
 				5513803323AA6951008F9210 /* AFNYStyleVeggiePizza.swift in Sources */,
 				55E4F44623AA755B00B7BE6A /* DPAFTester.swift in Sources */,
 				55E4F45423ABD29B00B7BE6A /* ATurkey.swift in Sources */,
@@ -606,7 +684,9 @@
 				55E4F44223AA72FE00B7BE6A /* AFBDPizzaFactory.swift in Sources */,
 				55E4F46523ABD75A00B7BE6A /* ASuperDrone.swift in Sources */,
 				5562844323B119C40092AECE /* BDevice.swift in Sources */,
+				555A2CD223D6FC92008B71C5 /* BCoreDataQueryBuilder.swift in Sources */,
 				55E4F45A23ABD3CA00B7BE6A /* AMallardDuck.swift in Sources */,
+				555A2CDB23D6FDE5008B71C5 /* BUserModel.swift in Sources */,
 				5564E95123A926DE0016C533 /* DPTester.swift in Sources */,
 				5564E94523A9129B0016C533 /* FMNYStyleClamPizza.swift in Sources */,
 			);
