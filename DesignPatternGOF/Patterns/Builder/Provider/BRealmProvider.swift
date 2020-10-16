@@ -18,16 +18,13 @@ class BRealmProvider {
     func fetch<Model: BDomainModel>(_ operations: [BRealmQueryBuilder<Model>.Query]) -> [Model] {
 
         print("RealmProvider: Retrieving data from Realm...")
-        var result: [Model] = []
+        var result: [Model] = gResult.compactMap { $0 as? Model }
         for item in operations {
             switch item {
             case .filter(let doSome):
-                if let doing = doSome as? (BUserModel) -> Bool {
-                    result = gResult.filter(doing).compactMap { $0 as? Model }
-                    print("RealmProvider: 'filter' applied : \(result.count) operation.")
-                }
-                
-                print("RealmProvider: executing the 'filter' : \(result.count) operation.")
+                print("RealmProvider: 'filter' will applied : \(result.count) operation.")
+                result = result.filter(doSome)
+                print("RealmProvider: executing the 'filter' applied : \(result.count) operation.")
                 /// Use Realm instance to filter results.
                 break
             case .limit(let count):
