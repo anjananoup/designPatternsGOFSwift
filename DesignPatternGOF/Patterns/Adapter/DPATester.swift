@@ -11,12 +11,12 @@ class DPATester: DPTester {
         let mallaredDuck = AMallardDuck()
         testDuck(mallaredDuck)
 
-        print("------Adapting Turkey------")
+        AppLogger.logInfo(message: "------Adapting Turkey------")
 
         let turkeyAdapter = ATurkeyAdapter(AWildTurkey())
         testDuck(turkeyAdapter)
         
-        print("------Adapting Drone------")
+        AppLogger.logInfo(message: "------Adapting Drone------")
         
         let droneAdapter = ADroneAdapter(ASuperDrone())
         testDuck(droneAdapter)

@@ -8,12 +8,10 @@
 
 class DBBTester: DPTester {
     func startTesting() {
-        print("Client: Start fetching data from Realm")
+        AppLogger.logInfo(message: "Client: Start fetching data from Realm")
         clientCode(builder: BRealmQueryBuilder<BUserModel>())
 
-        print()
-
-        print("Client: Start fetching data from CoreData")
+        AppLogger.logInfo(message: "Client: Start fetching data from CoreData")
         clientCode(builder: BCoreDataQueryBuilder<BUserModel>())
     }
     
@@ -22,6 +20,6 @@ class DBBTester: DPTester {
             .limit(1)
             .fetch()
 
-        print("Client: I have fetched: " + String(results.count) + " records.")
+        AppLogger.logInfo(message: "Client: I have fetched: " + String(results.count) + " records.")
     }
 }

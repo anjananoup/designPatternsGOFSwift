@@ -52,7 +52,7 @@ struct MyButtonStyle: ViewModifier {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(doAction: {
-            print("I am clicked")
+            AppLogger.logInfo(message: "I am clicked")
         })
     }
 }

@@ -25,7 +25,7 @@ protocol AFPizzaFactory {
 extension AFPizzaFactory {
     func orderPizza(_ type: AFPizzaType) -> AFPizza? {
         let pizza = createPizza(type)
-        print("---- Making a \(String(describing: pizza?.name)) ----")
+        AppLogger.logInfo(message: "---- Making a \(String(describing: pizza?.name)) ----")
         pizza?.prepare()
         pizza?.bake()
         pizza?.cut()

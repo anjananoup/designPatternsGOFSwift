@@ -9,13 +9,13 @@
 class DPAFTester: DPTester {
     func startTesting() {
         var pizza = AFPizzaProducer.getPizzaFactory(.BD)?.orderPizza(.Cheese)
-        print("Anjan Ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Anjan Ordered a \(String(describing: pizza?.name))")
         pizza = AFPizzaProducer.getPizzaFactory(.NY)?.orderPizza(.Cheese)
-        print("Susmi Ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Susmi Ordered a \(String(describing: pizza?.name))")
         
         pizza = AFPizzaProducer.getPizzaFactory(.BD)?.orderPizza(.Unknown)
-        print("Pritam vai Ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Pritam vai Ordered a \(String(describing: pizza?.name))")
         pizza = AFPizzaProducer.getPizzaFactory(.NY)?.orderPizza(.Unknown)
-        print("Taposhi Apu Ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Taposhi Apu Ordered a \(String(describing: pizza?.name))")
     }
 }

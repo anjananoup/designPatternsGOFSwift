@@ -8,10 +8,10 @@
 
 class AMallardDuck: ADuck {
     func quack() {
-        print("Quack Quack")
+        AppLogger.logInfo(message: "Quack Quack")
     }
     
     func fly() {
-        print("I'm Flying...")
+        AppLogger.logInfo(message: "I'm Flying...")
     }
 }

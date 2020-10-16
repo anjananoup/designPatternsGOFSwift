@@ -16,6 +16,6 @@ class AFBDStyleCheesePizza: AFPizza {
     }
     
     override func cut() {
-        print("Cutting the pizza: \(name) into square slices")
+        AppLogger.logInfo(message: "Cutting the pizza: \(name) into square slices")
     }
 }

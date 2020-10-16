@@ -19,25 +19,25 @@ class AFPizza {
     }
 
     func prepare() {
-        print("Prepare: \(name)")
-        print("Tossing dough...")
-        print("Adding sauce...")
-        print("Adding toppings: ")
+        AppLogger.logInfo(message: "Prepare: \(name)")
+        AppLogger.logInfo(message: "Tossing dough...")
+        AppLogger.logInfo(message: "Adding sauce...")
+        AppLogger.logInfo(message: "Adding toppings: ")
         for topping in toppings {
-            print("topping --> \(topping)")
+            AppLogger.logInfo(message: "topping --> \(topping)")
         }
     }
     
     func bake() {
-        print("Bake the pizza: \(name)")
+        AppLogger.logInfo(message: "Bake the pizza: \(name)")
     }
     
     func cut() {
-        print("Cut the pizza: \(name) into diagonal slice")
+        AppLogger.logInfo(message: "Cut the pizza: \(name) into diagonal slice")
     }
     
     func box() {
-        print("Place pizza: \(name) in official PizzaStore box")
+        AppLogger.logInfo(message: "Place pizza: \(name) in official PizzaStore box")
     }
     
     func toString() -> String {

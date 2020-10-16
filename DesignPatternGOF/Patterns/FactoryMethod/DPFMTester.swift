@@ -9,9 +9,9 @@
 class DPFMTester: DPTester {
     func startTesting() {
         var pizza = FMPizzaFactory.createPizza(.Cheese)
-        print("Anjan ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Anjan ordered a \(String(describing: pizza?.name))")
         
         pizza = FMPizzaFactory.createPizza(.Clam)
-        print("Pritam ordered a \(String(describing: pizza?.name))")
+        AppLogger.logInfo(message: "Pritam ordered a \(String(describing: pizza?.name))")
     }
 }

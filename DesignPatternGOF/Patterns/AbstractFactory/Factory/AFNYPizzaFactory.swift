@@ -18,10 +18,10 @@ class AFNYPizzaFactory: AFPizzaFactory {
         case .Pepperoni:
             return AFNYStylePepperoniPizza()
         case .Unknown:
-            print("Pizza type Unknown")
+            AppLogger.logInfo(message: "Pizza type Unknown")
             fallthrough
         @unknown default:
-            print("Pizza type unknown. Can't make...")
+            AppLogger.logInfo(message: "Pizza type unknown. Can't make...")
             return nil
         }
     }

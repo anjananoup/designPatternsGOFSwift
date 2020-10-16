@@ -22,10 +22,10 @@ class AFPizzaProducer {
         case .BD:
             return AFBDPizzaFactory()
         case .Unknown:
-            print("Pizza Factory Unknown")
+            AppLogger.logInfo(message: "Pizza Factory Unknown")
             fallthrough
         @unknown default:
-            print("Unknown Pizza factory")
+            AppLogger.logInfo(message: "Unknown Pizza factory")
             return nil
         }
     }

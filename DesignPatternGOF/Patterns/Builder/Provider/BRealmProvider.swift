@@ -17,20 +17,20 @@ class BRealmProvider {
     
     func fetch<Model: BDomainModel>(_ operations: [BRealmQueryBuilder<Model>.Query]) -> [Model] {
 
-        print("RealmProvider: Retrieving data from Realm...")
+        AppLogger.logInfo(message: "RealmProvider: Retrieving data from Realm...")
         var result: [Model] = gResult.compactMap { $0 as? Model }
         for item in operations {
             switch item {
             case .filter(let doSome):
-                print("RealmProvider: 'filter' will applied : \(result.count) operation.")
+                AppLogger.logInfo(message: "RealmProvider: 'filter' will applied : \(result.count) operation.")
                 result = result.filter(doSome)
-                print("RealmProvider: executing the 'filter' applied : \(result.count) operation.")
+                AppLogger.logInfo(message: "RealmProvider: executing the 'filter' applied : \(result.count) operation.")
                 /// Use Realm instance to filter results.
                 break
             case .limit(let count):
-                print("RealmProvider: executing the 'limit': \(count) operation. result: \(result.count)")
+                AppLogger.logInfo(message: "RealmProvider: executing the 'limit': \(count) operation. result: \(result.count)")
                 result = result.enumerated().filter { $0.offset < count }.map { $0.element }
-                print("RealmProvider: 'limit': Apply \(count) operation. result: \(result.count)")
+                AppLogger.logInfo(message: "RealmProvider: 'limit': Apply \(count) operation. result: \(result.count)")
                 /// Use Realm instance to limit results.
                 break
             }

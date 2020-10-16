@@ -8,10 +8,10 @@
 
 class AWildTurkey: ATurkey {
     func gobble() {
-        print("Gobble Gobble")
+        AppLogger.logInfo(message: "Gobble Gobble")
     }
     
     func fly() {
-        print("I'm flying slowwwww")
+        AppLogger.logInfo(message: "I'm flying slowwwww")
     }
 }

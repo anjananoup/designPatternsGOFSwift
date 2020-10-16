@@ -32,7 +32,7 @@ class BCoreDataQueryBuilder<Model: BDomainModel>: BBaseQueryBuilder<Model> {
     }
 
     override func fetch() -> [Model] {
-        print("CoreDataQueryBuilder: Initializing CoreDataProvider with \(operations.count) operations.")
+        AppLogger.logInfo(message: "CoreDataQueryBuilder: Initializing CoreDataProvider with \(operations.count) operations.")
         return BCoreDataProvider().fetch(operations)
     }
 }

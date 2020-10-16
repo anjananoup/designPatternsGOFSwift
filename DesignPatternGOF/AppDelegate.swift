@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
-        print("I am from outside: \(url)")
+        AppLogger.logInfo(message: "I am from outside: \(url)")
         return true
     }
 
@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 return false
         }
 
-        print("Called from Outside: \(components)")
+        AppLogger.logInfo(message: "Called from Outside: \(components)")
 
         return false
     }

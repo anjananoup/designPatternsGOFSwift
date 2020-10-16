@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView(doAction: { [weak self] in
-            print("Doing......")
+            AppLogger.logInfo(message: "Doing......")
             self?.tester = DBBTester()
             self?.tester?.startTesting()
         })

@@ -8,14 +8,14 @@
 
 class ASuperDrone: ADrone {
     func beep() {
-        print("Beep beep beep")
+        AppLogger.logInfo(message: "Beep beep beep")
     }
     
     func spinRotors() {
-        print("Rotors are spinning")
+        AppLogger.logInfo(message: "Rotors are spinning")
     }
     
     func takeOff() {
-        print("Taking of the drone")
+        AppLogger.logInfo(message: "Taking of the drone")
     }
 }

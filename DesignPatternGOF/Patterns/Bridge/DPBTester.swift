@@ -10,17 +10,17 @@ class DPBTester: DPTester {
     func startTesting() {
         let tv = BTV()
         var remote = BRemoteControl(tv)
-        print(remote.device.toString())
+        AppLogger.logInfo(message: remote.device.toString())
         
         BClient.channelDown(remote)
         BClient.volumeUp(remote)
         BClient.togglePower(remote)
         
-        print(remote.device.toString())
+        AppLogger.logInfo(message: remote.device.toString())
         
         let radio = BRadio()
         remote = BAdvancedRemoteControl(radio)
-        print(remote.device.toString())
+        AppLogger.logInfo(message: remote.device.toString())
         
         BClient.togglePower(remote)
         BClient.channelDown(remote)
@@ -29,6 +29,6 @@ class DPBTester: DPTester {
             BClient.mute(advRemote)
         }
         
-        print(remote.device.toString())
+        AppLogger.logInfo(message: remote.device.toString())
     }
 }

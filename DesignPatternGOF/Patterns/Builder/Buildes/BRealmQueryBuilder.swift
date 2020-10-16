@@ -28,7 +28,7 @@ class BRealmQueryBuilder<Model: BDomainModel>: BBaseQueryBuilder<Model> {
     }
 
     override func fetch() -> [Model] {
-        print("RealmQueryBuilder: Initializing CoreDataProvider with \(operations.count) operations:")
+        AppLogger.logInfo(message: "RealmQueryBuilder: Initializing CoreDataProvider with \(operations.count) operations:")
         return BRealmProvider().fetch(operations)
     }
 }
